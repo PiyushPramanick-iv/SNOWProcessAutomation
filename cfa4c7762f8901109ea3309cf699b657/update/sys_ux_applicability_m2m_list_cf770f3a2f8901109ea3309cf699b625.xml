@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Audience for appInstaV Demo Workspace 1">6a77cb3a2f8901109ea3309cf699b694</applicability>
+        <list display_value="Unassigned">72770f3a2f8901109ea3309cf699b624</list>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-18 16:20:42</sys_created_on>
+        <sys_id>cf770f3a2f8901109ea3309cf699b625</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo Workspace 1" source="x_682681_demo_work">cfa4c7762f8901109ea3309cf699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Workspace 1">cfa4c7762f8901109ea3309cf699b657</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_cf770f3a2f8901109ea3309cf699b625</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-18 16:20:42</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+</record_update>

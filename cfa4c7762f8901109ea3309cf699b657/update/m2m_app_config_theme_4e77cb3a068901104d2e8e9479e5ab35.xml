@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-18 16:20:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4e77cb3a068901104d2e8e9479e5ab35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Demo Workspace 1" source="x_682681_demo_work">cfa4c7762f8901109ea3309cf699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Workspace 1">cfa4c7762f8901109ea3309cf699b657</sys_scope>
+        <sys_update_name>m2m_app_config_theme_4e77cb3a068901104d2e8e9479e5ab35</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-18 16:20:39</sys_updated_on>
+        <theme display_value="Starter Workspace Theme">c277cb3abe890110f1abca36616b5136</theme>
+        <ux_app_configuration display_value="InstaV Demo Workspace 1 Config">8e77cb3a89890110aa6f3975a27f0735</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

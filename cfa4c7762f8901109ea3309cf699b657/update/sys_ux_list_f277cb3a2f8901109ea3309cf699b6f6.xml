@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Incident">2a77cb3a2f8901109ea3309cf699b6dd</category>
+        <columns>number,opened_at,short_description,caller_id,priority,state,category,assignment_group,assigned_to,sys_updated_on,sys_updated_by</columns>
+        <condition table="incident">active=true^assigned_toISEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <configuration display_value="InstaV Demo Workspace 1_menu_config">6677cb3a2f8901109ea3309cf699b69d</configuration>
+        <group_by_column/>
+        <groups/>
+        <list_attributes/>
+        <order>30</order>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-18 16:20:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f277cb3a2f8901109ea3309cf699b6f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unassigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo Workspace 1" source="x_682681_demo_work">cfa4c7762f8901109ea3309cf699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Workspace 1">cfa4c7762f8901109ea3309cf699b657</sys_scope>
+        <sys_update_name>sys_ux_list_f277cb3a2f8901109ea3309cf699b6f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-18 16:20:41</sys_updated_on>
+        <table>incident</table>
+        <title>Unassigned</title>
+    </sys_ux_list>
+</record_update>

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "poybzicpmjdnrtrc",
+  "elementLabel" : "Happening now container",
+  "propertyValues" : {
+    "border" : false,
+    "collapsed" : false,
+    "canCollapse" : false,
+    "label" : "Happening  Now",
+    "type" : "visualizations",
+    "bare" : false,
+    "bgvar" : null,
+    "size" : false,
+    "disableDismiss" : false,
+    "defer" : false,
+    "collapseButtonTooltipContent" : "Collapse container to hide contents",
+    "expandButtonTooltipContent" : "Expand container to show contents"
+  },
+  "eventMappings" : [ ],
+  "slot" : "ckysg8lsn0017387w810wn1vg",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "mohadsejjplegzgc",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : "6dcaa27853d2f30030ffddeeff7b122e",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : null,
+        "label" : "Open P1 Incidents",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "eventMappings" : [ ],
+      "slot" : "ckysg8lsn001e387wtnwex6bw",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : false
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "oribyaaaijtwasgh",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : "54e7243f532c330083f3ddeeff7b1277",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : null,
+        "label" : "Incident SLA Breached",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "eventMappings" : [ ],
+      "slot" : "ckysg8lsn001k387wqdhh7irr",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : false
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "ezqoiwjtmbllwlwn",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : "d21b6abd53a0330083f3ddeeff7b12d2",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : null,
+        "label" : "Incident SLA at Risk",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "eventMappings" : [ ],
+      "slot" : "ckysg8lsn001m387woea9lf81",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : false
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "zubwczsoolvkrzqd",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : "b5d1b0db536c330083f3ddeeff7b126d",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : null,
+        "label" : "Incidents Not Updated in 24 Hours",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "eventMappings" : [ ],
+      "slot" : "ckysg8lsn001g387we295hd2p",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : false
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "qhugcknsrphahvvb",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : "da903c51d7030200eaae68150e61039b",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : null,
+        "label" : "Unassigned Incidents",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "eventMappings" : [ ],
+      "slot" : "ckysg8lsn001o387w88f5k1p9",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : false
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "vqweubsthuzovexi",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : "1bebbb5a53a8330083f3ddeeff7b12a4",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : null,
+        "label" : "My Incidents",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "eventMappings" : [ ],
+      "slot" : "ckysg8lsn001i387w6dkktn3q",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : false
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : null,
+        "root" : {"type":"row","columns":[{"type":"column","size":6,"id":"ckysgiilsnaaaabbcddiihhwhxwbvgwii","rows":[{"type":"row","id":"ckysg8lsn001f387wr7ogbzsn","slotName":"ckysg8lsn001e387wtnwex6bw"},{"type":"row","id":"ckysg8lsn001h387wa6ymzz2x","slotName":"ckysg8lsn001g387we295hd2p"},{"type":"row","id":"ckysg8lsn001j387w504rwzlf","slotName":"ckysg8lsn001i387w6dkktn3q"}]},{"type":"column","size":6,"id":"ckysgiilsnaaaabbdddiihhwddqrhhprxs","rows":[{"type":"row","id":"ckysg8lsn001l387w9v4uoyn6","slotName":"ckysg8lsn001k387wqdhh7irr"},{"type":"row","id":"ckysg8lsn001n387w5piq6t1n","slotName":"ckysg8lsn001m387woea9lf81"},{"type":"row","id":"ckysg8lsn001p387wg0rnstgu","slotName":"ckysg8lsn001o387w88f5k1p9"}]}],"id":"ckysgiilsnaaaabbbddiihhwccqjecbbaa"},
+        "rules" : null,
+        "styles" : null,
+        "templateId" : null,
+        "type" : "rowColumn"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "bncmvdhsltuhbwkg",
+  "elementLabel" : "My work container",
+  "propertyValues" : {
+    "border" : false,
+    "collapsed" : false,
+    "canCollapse" : false,
+    "label" : "My Work",
+    "type" : "visualizations",
+    "bare" : false,
+    "bgvar" : null,
+    "size" : false,
+    "disableDismiss" : false,
+    "defer" : false,
+    "collapseButtonTooltipContent" : "Collapse container to hide contents",
+    "expandButtonTooltipContent" : "Expand container to show contents"
+  },
+  "eventMappings" : [ ],
+  "slot" : "ckysg8lsn0013387w99gcizu7",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "civkhsbteavhwlvd",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : false,
+        "reportSysId" : "ea698f715324330083f3ddeeff7b122a",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : "MEDIUM",
+        "label" : null,
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "eventMappings" : [ ],
+      "slot" : "ckysg8lso001q387wfby4szts",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : false
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : null,
+        "root" : {"id":"ckysg8lso001r387wdl2vj6f8","type":"column","size":12,"rows":[{"type":"row","id":"ckysg8lso001s387wabywgp36","slotName":"ckysg8lso001q387wfby4szts"}]},
+        "rules" : null,
+        "styles" : null,
+        "templateId" : null,
+        "type" : "rowColumn"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "zaqamhwwzlsepdov",
+  "elementLabel" : "Unassigned incidents container",
+  "propertyValues" : {
+    "border" : false,
+    "collapsed" : false,
+    "canCollapse" : false,
+    "label" : "Unassigned Incidents",
+    "type" : "visualizations",
+    "bare" : false,
+    "bgvar" : null,
+    "size" : false,
+    "disableDismiss" : false,
+    "defer" : false,
+    "collapseButtonTooltipContent" : "Collapse container to hide contents",
+    "expandButtonTooltipContent" : "Expand container to show contents"
+  },
+  "eventMappings" : [ ],
+  "slot" : "ckysg8lsn0015387wmmqc0m26",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "swghrmmnjtzyjtgu",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : false,
+        "reportSysId" : "022e675853ad330030ffddeeff7b127d",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : "LARGE",
+        "label" : null,
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "eventMappings" : [ ],
+      "slot" : "ckysg8lso001t387w0vq2pm7m",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : false
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : null,
+        "root" : {"id":"ckysg8lso001u387wt8ln8oup","type":"column","size":12,"rows":[{"type":"row","id":"ckysg8lso001v387wa7v83g7d","slotName":"ckysg8lso001t387w0vq2pm7m"}]},
+        "rules" : null,
+        "styles" : null,
+        "templateId" : null,
+        "type" : "rowColumn"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "gybkhtfpsrtwodvc",
+  "elementLabel" : "Organization performance container",
+  "propertyValues" : {
+    "border" : false,
+    "collapsed" : false,
+    "canCollapse" : false,
+    "label" : "Organizational Performance",
+    "type" : "visualizations",
+    "bare" : false,
+    "bgvar" : null,
+    "size" : false,
+    "disableDismiss" : false,
+    "defer" : false,
+    "collapseButtonTooltipContent" : "Collapse container to hide contents",
+    "expandButtonTooltipContent" : "Expand container to show contents"
+  },
+  "eventMappings" : [ ],
+  "slot" : "ckysg8lsn0019387w80be40f1",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "bbnrofsmeulgetig",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : null,
+        "paWidgetSysId" : "1ac78d7253ac330083f3ddeeff7b12fe",
+        "refreshInterval" : "2",
+        "variant" : null,
+        "label" : "Mean Time To Resolution",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "eventMappings" : [ ],
+      "slot" : "ckysg8lso001w387wq2iigk3k",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : false
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "vzckjmwrfgavqxcz",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : null,
+        "paWidgetSysId" : "a22dc9f253ac330083f3ddeeff7b1273",
+        "refreshInterval" : "2",
+        "variant" : null,
+        "label" : "First Call Resolution",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "eventMappings" : [ ],
+      "slot" : "ckysg8lso001x387w0mbnehc8",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : false
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "covwxrwymllwrvdx",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : null,
+        "paWidgetSysId" : "707d0df253ac330083f3ddeeff7b127a",
+        "refreshInterval" : "2",
+        "variant" : null,
+        "label" : "Customer Satisfaction",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "eventMappings" : [ ],
+      "slot" : "ckysg8lso001y387ws1lzkctu",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : false
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : null,
+        "root" : {"id":"ckysg8lso001z387w533oksvq","type":"column","size":12,"rows":[{"type":"row","id":"ckysg8lso0020387wt4zz03fz","slotName":"ckysg8lso001w387wq2iigk3k"},{"type":"row","id":"ckysg8lso0021387we3r5bk2x","slotName":"ckysg8lso001x387w0mbnehc8"},{"type":"row","id":"ckysg8lso0022387wjqg105q8","slotName":"ckysg8lso001y387ws1lzkctu"}]},
+        "rules" : null,
+        "styles" : null,
+        "templateId" : null,
+        "type" : "rowColumn"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : null,
+    "root" : {"type":"row","columns":[{"type":"column","size":7,"id":"ckysgiilsnaaaabbbbddiihhwccdiipddugi","rows":[{"type":"row","id":"ckysg8lsn0014387wfxfd4quq","slotName":"ckysg8lsn0013387w99gcizu7"},{"type":"row","id":"ckysg8lsn0016387wzwdnx1d5","slotName":"ckysg8lsn0015387wmmqc0m26"}]},{"type":"column","size":5,"id":"ckysgiilsnaaaabbccddiihhwkggciidez","rows":[{"type":"row","id":"ckysg8lsn0018387wmhnp2zsv","slotName":"ckysg8lsn0017387w810wn1vg"},{"type":"row","id":"ckysg8lsn001a387wci3dn39i","slotName":"ckysg8lsn0019387w80be40f1"}]}],"id":"ckysgiilsnaaaabbaaddiihhwnalaachlgg"},
+    "rules" : null,
+    "styles" : null,
+    "templateId" : null,
+    "type" : "rowColumn"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Copy of Incident Overview - Premium (enabled for UI Builder)</name>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "Customer Satisfaction",
+  "comment" : ""
+}, {
+  "message" : "First Call Resolution",
+  "comment" : ""
+}, {
+  "message" : "Happening  Now",
+  "comment" : ""
+}, {
+  "message" : "Incident SLA Breached",
+  "comment" : ""
+}, {
+  "message" : "Incident SLA at Risk",
+  "comment" : ""
+}, {
+  "message" : "Incidents Not Updated in 24 Hours",
+  "comment" : ""
+}, {
+  "message" : "Mean Time To Resolution",
+  "comment" : ""
+}, {
+  "message" : "My Incidents",
+  "comment" : ""
+}, {
+  "message" : "My Work",
+  "comment" : ""
+}, {
+  "message" : "Open P1 Incidents",
+  "comment" : ""
+}, {
+  "message" : "Organizational Performance",
+  "comment" : ""
+}, {
+  "message" : "Unassigned Incidents",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-24 08:50:21</sys_created_on>
+        <sys_id>9cf99cb82f9d01109ea3309cf699b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Incident Overview - Premium (enabled for UI Builder)</sys_name>
+        <sys_package display_value="Demo Workspace 1" source="x_682681_demo_work">cfa4c7762f8901109ea3309cf699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Workspace 1">cfa4c7762f8901109ea3309cf699b657</sys_scope>
+        <sys_update_name>sys_ux_macroponent_9cf99cb82f9d01109ea3309cf699b648</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-24 08:50:21</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>
